@@ -1,0 +1,16 @@
+A user must be able to view the following user data
+  first name
+  last name
+  gender
+  rgion
+  phone
+  email
+  password
+  image of the person
+A user must be able to quickly hide the password field from view.
+A user must be presented with a loading indicator until there is data to show.
+A user must be presented with a failure indicator if the data fails to load.
+A user must be alerted to how to refetch the data.
+A user must be able to quickly search for a user of their choice.
+A user must be presented with a message if the user they're searching for cannot be found.
+Given a search has been started a user must be able to return to see the whole dataset.

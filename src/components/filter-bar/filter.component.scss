@@ -1,0 +1,15 @@
+.filter-bar {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  input {
+    padding-right: 55px;
+    height: 32px;
+    width: 100%;
+  }
+  .filter-bar__clear {
+    position: absolute;
+    right: 25px;
+    top: 7px;
+  }
+}

@@ -1,0 +1,45 @@
+$image-dimension: 240px;
+$card-dimension: 300px;
+$card-spacing: 20px;
+
+.user-card {
+  display: flex;
+  padding: $card-spacing;
+  margin: 0px 5px $card-spacing;
+  border: 1px solid #cccccc;
+  border-radius: 3px;
+  background-color: white;
+  flex: 1 1 auto;
+  flex-direction: column;
+  text-align: center;
+  max-width: $card-dimension;
+  width: $card-dimension;
+
+  img {
+    max-width: $image-dimension;
+    max-height: $image-dimension;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  strong {
+    font-size: 18px;
+  }
+
+  p {
+    margin-bottom: 5px;
+    display: block;
+    &.sensitive {
+      background: black;
+      color: black;
+      &:hover {
+        background: white;
+        color: initial;
+      }
+    }
+  }
+  .user-card__information {
+    display: block;
+    padding-left: $card-spacing;
+  }
+}
